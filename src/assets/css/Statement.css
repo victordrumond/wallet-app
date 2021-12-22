@@ -8,7 +8,6 @@
 #table-content {
     border-collapse: collapse;
     border: 2px solid black;
-    width: 100%;
 }
 
 #table-content th {
@@ -42,8 +41,16 @@
 }
 
 @media (max-width: 575px) {
+    #statement-wrapper {
+        overflow: auto;
+    }
+    
     #table-title {
         margin: 1.25rem 0 1rem;
         font-size: 16px;
+    }
+
+    #table-content {
+        width: 540px;
     }
 }

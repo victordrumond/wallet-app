@@ -24,10 +24,10 @@ function App() {
         <div id="background">
             <div id="main-container" className="container-fluid">
                 <div id="nav-container" className="d-flex justify-content-between">
-                    <div id="nav-title" className="d-flex">
+                    <div id="nav-title">
                         <h1>Wallet App</h1>
                     </div>
-                    <div id="nav-buttons" className="d-flex">
+                    <div id="nav-buttons">
                         <Button variant="primary" type="button" className="nav-button" onClick={() => setAddList(true)}>
                             Add List
                         </Button>

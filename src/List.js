@@ -57,7 +57,10 @@ function List({ name }) {
                 <div id="display-balance" className="d-flex">
                     <p>Balance: </p>
                     <BiDollarCircle className="display-icon" onClick={() => setShowBalance(!showBalance)}/>
-                    {showBalance && <h2>{balance.toFixed(2)}</h2>}
+                    {showBalance &&
+                    <h2 style={parseFloat(balance.toFixed(2)) < 0 ? {color: "red"} : {color: "green"}}>
+                        {balance.toFixed(2)}
+                    </h2>}
                 </div>
                 <div id="display-buttons" className="d-flex">
                     <div className="d-flex">

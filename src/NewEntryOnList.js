@@ -98,8 +98,12 @@ function NewEntryOnList({ addButton, type, ...props }) {
                         (description!== "" && value!== "")
                         ? () => {
                             props.onHide();
-                            addButton(description, value, date, category, type)
+                            addButton(description, value, date, category, type);
                             setError(false);
+                            setDescription("");
+                            setValue("");
+                            setDate("");
+                            setCategory("");
                         }
                         : () => cannotCreate()
                     }>Add {type}

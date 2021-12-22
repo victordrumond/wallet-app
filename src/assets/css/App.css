@@ -77,7 +77,7 @@ html {
 
     #nav-buttons {
         padding: 0.75rem 0 3rem;
-        justify-content: end;
+        margin: 0 0 0 auto;
     }
 
     #lists-container {
