@@ -1,0 +1,12 @@
+.form-input {
+    margin-bottom: 0.75rem;
+}
+
+#value-input {
+    width: 50%;
+    margin-right: 0.5rem;
+}
+
+#date-input {
+    width: 50%;
+}

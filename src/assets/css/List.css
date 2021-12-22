@@ -1,0 +1,57 @@
+#display-container h2 {
+    font-size: 18px;
+    margin: auto 0;
+    margin-left: 0.5rem;
+}
+
+#display-container p {
+    font-size: 18px;
+    margin: auto 0.5rem;
+}
+
+.accordion-button {
+    font-size: 18px;
+}
+
+.display-icon {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.display-icon:hover {
+    transform: scale(1.15);
+    transition: ease-in-out 0.2s;
+}
+
+@media (max-width: 575px) {
+    .accordion-button {
+        padding: 0.75rem 0.5rem;
+        font-size: 16px;
+    }
+
+    .accordion-body {
+        padding: 0.5rem 0.25rem;
+    }
+
+    #display-container {
+        flex-direction: column;
+    }
+
+    #display-balance {
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+
+    #display-balance p {
+        font-size: 16px;
+    }
+
+    #display-buttons {
+        justify-content: space-between;
+    }
+
+    #display-buttons p {
+        font-size: 16px;
+    }
+}

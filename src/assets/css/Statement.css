@@ -1,0 +1,49 @@
+#table-title {
+    font-size: 18px;
+    margin: 1.5rem 0 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+  
+#table-content {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+}
+
+#table-content th {
+    background-color: lightgrey;
+    padding: 0.5rem;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    vertical-align: middle;
+    text-align: center;
+}
+  
+#table-content td {
+    padding: 0.5rem;
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+}
+
+#table-content td input {
+    margin: 0;
+}
+
+.income {
+    background-color: lightgreen;
+}
+
+.expense {
+    background-color: salmon;
+}
+
+@media (max-width: 575px) {
+    #table-title {
+        margin: 1.25rem 0 1rem;
+        font-size: 16px;
+    }
+}

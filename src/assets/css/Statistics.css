@@ -1,0 +1,39 @@
+#stats-title {
+    font-size: 18px;
+    margin: 1.5rem 0 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#statistics-wrapper p {
+    margin: 0.25rem 0;
+}
+
+#chart-box p {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+@media (max-width: 768px) {
+    #chart-box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575px) {
+    #stats-title {
+        font-size: 16px;
+        margin: 1.25rem 0 1rem;
+    }
+
+    #statistics-wrapper p {
+        font-size: 15px;
+    }
+
+    #chart-box p {
+        font-size: 16px;
+        text-align: start;
+        margin: 1.25rem 0 1rem 0.5rem;
+    }
+}
